@@ -1,0 +1,132 @@
+/* General body styling */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Profile container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Profile title */
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+/* Buttons */
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+/* Description under buttons */
+h6 {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #555;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+/* Improve spacing for Logout button */
+.logout {
+  margin-top: 20px;
+}
+
+/* Navbar styles (if applicable) */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+}
+
+.bgColor{
+  background-color: #e9f7e3;
+}
+.img{
+  width: 100px; /* Adjust width as per your design */
+  height: 100px; /* Adjust height as per your design */
+  object-fit: cover; /* Ensures image fits within the box without distortion */
+  border-radius: 8px; /* Adds rounded corners */
+  border: 1px solid #ddd; /* Optional: Adds a subtle border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
+  transition: transform 0.2s ease; 
+}
+.img:hover{
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /
+}
